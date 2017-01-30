@@ -2,7 +2,7 @@
 
 ## Direct Integration
 
-Files to change
+###Files to note:
 
 * `Info.plist`: To add the deep linking params
 * `PYPLCheckoutBridge.h`: To bridge between the objective C library and swift project
@@ -10,6 +10,8 @@ Files to change
 * `AppDelegate.swift`: To handle the deep link call back on merchant side and pass it to Paypal SDK to cleanup the SFVC it opened up.
 
 ## Webview Integration
+
+###Files to note:
 
 * `Info.plist`: To add the deep linking params
 * `PYPLCheckoutBridge.h`: To bridge between the objective C library and swift project
