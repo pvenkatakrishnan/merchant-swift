@@ -41,5 +41,20 @@
 		<string>UIInterfaceOrientationLandscapeLeft</string>
 		<string>UIInterfaceOrientationLandscapeRight</string>
 	</array>
+    <key>Paypal_Client_Id</key>
+    <string>AWd_hbTN5PXK2vVdsUnD7iwx6x06W0mXlbkUYC3p</string>
+    <key>Paypal_Deep_Link</key>
+    <string>foobar://paypal/authorize</string>
+    <key>CFBundleURLTypes</key>
+    <array>
+        <dict>
+            <key>CFBundleURLName</key>
+            <string>com.merchant.foobar</string>
+            <key>CFBundleURLSchemes</key>
+            <array>
+                <string>foobar</string>
+            </array>
+        </dict>
+    </array>
 </dict>
 </plist>

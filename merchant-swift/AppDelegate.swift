@@ -40,6 +40,16 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     func applicationWillTerminate(_ application: UIApplication) {
         // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
     }
+    
+    func application(_ application: UIApplication, open url: URL, sourceApplication: String?, annotation: Any) -> Bool {
+        
+        let instance = PYPLCheckout.sharedInstance() as! PYPLCheckout;
+        let d:Bool = instance.openURL(application, open:url, sourceApplication:sourceApplication, annotation:annotation)
+        let alert = UIAlertController(title: "Alert", message: "Paypal Callback into merchant app", preferredStyle: UIAlertControllerStyle.alert)
+        alert.addAction(UIAlertAction(title: "Done", style: UIAlertActionStyle.default, handler: nil))
+        self.window?.rootViewController?.present(alert, animated: true, completion: nil)
+        return d;
+    }
 
 
 }
