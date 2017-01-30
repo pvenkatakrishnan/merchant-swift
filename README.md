@@ -6,8 +6,8 @@
 
 * [Info.plist](https://github.com/pvenkatakrishnan/merchant-swift/blob/master/merchant-swift/Info.plist#L44-L58): To add the deep linking params. Ch
 * [PYPLCheckoutBridge.h](https://github.com/pvenkatakrishnan/merchant-swift/blob/master/merchant-swift/PYPLCheckoutBridge.h): To bridge between the objective C library and swift project
-* `DirectViewController.swift`: To add a button listener and invoke SDK to open PYPL in SFVC with right state
-* `AppDelegate.swift`: To handle the deep link call back on merchant side and pass it to Paypal SDK to cleanup the SFVC it opened up.
+* [DirectViewController.swift](https://github.com/pvenkatakrishnan/merchant-swift/blob/master/merchant-swift/DirectViewController.swift#L41): To add a button listener and invoke SDK to open PYPL in SFVC with right state
+* [AppDelegate.swift](https://github.com/pvenkatakrishnan/merchant-swift/blob/master/merchant-swift/AppDelegate.swift#L44-L51): To handle the deep link call back on merchant side and pass it to Paypal SDK to cleanup the SFVC it opened up.
 
 ## Webview Integration
 
