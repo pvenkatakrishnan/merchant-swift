@@ -2,8 +2,6 @@
 
 ## Direct Integration
 
-###Files to note:
-
 * [Info.plist](https://github.com/pvenkatakrishnan/merchant-swift/blob/master/merchant-swift/Info.plist#L44-L58): To add the deep linking params. 
 * [PYPLCheckoutBridge.h](https://github.com/pvenkatakrishnan/merchant-swift/blob/master/merchant-swift/PYPLCheckoutBridge.h): To bridge between the objective C library and swift project
 * [DirectViewController.swift](https://github.com/pvenkatakrishnan/merchant-swift/blob/master/merchant-swift/DirectViewController.swift#L41): To add a button listener and invoke SDK to open PYPL in SFVC with right state
@@ -11,7 +9,6 @@
 
 ## Webview Integration
 
-###Files to note:
 
 * [Info.plist](https://github.com/pvenkatakrishnan/merchant-swift/blob/master/merchant-swift/Info.plist#L44-L58): To add the deep linking params. 
 * [PYPLCheckoutBridge.h](https://github.com/pvenkatakrishnan/merchant-swift/blob/master/merchant-swift/PYPLCheckoutBridge.h): To bridge between the objective C library and swift project
